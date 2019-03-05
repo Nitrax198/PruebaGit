@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--Html {
+div numeros dichos y si es mayor o menor
+input number
+boton enviar
+formulario cuando acierte : Nombre usuario display none
+boton nuevo juego reinicia display none
+tabla muestra puntuajes display none}
+CSS {
+Estilos to reshulones}-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <form action="" method="POST" id="formulario">
+            Escribe el número:<br>
+            <input type="number" name="numero" value="13" id="numero">
+            <br><br>
+            <input type="submit" value="Enviar" id="en">
+        </form>
+
+        <form action="" method="POST" id="formulario_Oculto" style="display:none;">
+            Escribe tres letras:<br>
+            <input type="text" name="registro" value="13" id="arcade">
+            <br><br>
+            <input type="submit" value="Enviar" id="todo">
+        </form>
+        <table id="tabla_oculta" style="display:none;">
+            <tr>
+                <th>Iniciales</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>x</td>
+                <td>Y</td> 
+                <td>50</td>
+            </tr>
+        </table>
+    </body>
+</html>
