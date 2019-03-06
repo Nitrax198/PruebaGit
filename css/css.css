@@ -47,6 +47,10 @@ input{
 input{
     
 }
+#errores{
+  bottom:0px;
+  right:0px;
+}
 #x{
   display:none;
 }
