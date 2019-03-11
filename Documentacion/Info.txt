@@ -1,0 +1,6 @@
+Para Trabajar con tebeans hay que:
+1º crear un repositorio en guit hub
+2º selecionamos la opcion de clone or download y copiamos lo que pone
+3º pegamos eso en netbeans en Team/guit/clone
+4º ahora ya está vinculado nuestro netbeans con el repositorio github, ahora lo unico que hay que hacer es cada vez que se termine un proyecto hacer un commit y un push
+o hacer un pull para descargarnos lo que hagan otros
