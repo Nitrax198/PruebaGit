@@ -7,7 +7,7 @@ function cargarEventos(evento) {
     }
 }
 function generaraleatorio(){
-aleatorio = Math.floor((Math.random()*100000)+1);
+aleatorio = Math.floor((Math.random()*10));
 document.getElementById("aleatorio").setAttribute("value",aleatorio);
 }
 function comprobarNumero(){
@@ -19,6 +19,8 @@ function comprobarNumero(){
 		var texto = mi_numero + " es mayor al numero aleatorio";
 		var nodotexto = document.createTextNode(texto);
 		fallos.appendChild(nodotexto);
+		var br = document.createElement("br");
+		fallos.appendChild(br);
     }
     else if(mi_numero<aleatorio)
     {
@@ -37,7 +39,7 @@ function comprobarNumero(){
 function grabarresultado(){
 	var nombre_enviar =document.getElementById("nombre").value;
 	var numintentos = document.getElementById("fallo").children.length;
-	var numintentos_enviar= (parseInt(numintentos)/2);
+	var numintentos_enviar= (parseInt(numintentos));
 	$.ajax({
         url: 'partephp.php',
         type: 'GET',
@@ -50,6 +52,7 @@ function grabarresultado(){
 }
 function resultado(datos){
 	document.getElementById("resultados").style.display= "block";
+	document.getElementById("tabla_oculta").style.display= "block";
 	var array = JSON.parse(datos);
 	var table = document.getElementById("tabla_oculta");
 	for (var i in array) {
