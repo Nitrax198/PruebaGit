@@ -33,7 +33,9 @@ span:nth-child(even){
 
 .body{
     text-align: center;
-    background: url(https://image.freepik.com/vector-gratis/arcade-retro-consola-videojuegos-dibujos-animados_24640-8054.jpg);
+    background: url(http://i.imgur.com/KvR6os3.png);
+	/* background-repeat: no-repeat; */
+	background-size: 100% 900%;
 }
 input{
   font-family: initial,sans-serif, Helvetica;
@@ -44,14 +46,17 @@ input{
   background-color: purple;
   color: pink;
 }
-input{
-    
+div{
+    color: pink;
+}
+#nombre{
+    color: pink;
 }
 #errores{
   bottom:0px;
   right:0px;
 }
-#x{
+#aleatorio{
   display:none;
 }
 #formulario_Oculto{
@@ -60,7 +65,9 @@ input{
 #tabla_oculta{
   display:none;
 }
-
+#resultados{
+	display:none;
+}
 
 
 
