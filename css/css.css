@@ -28,6 +28,7 @@ span {
 
 span:nth-child(even){
   animation-name: smoky-mirror;
+  color: pink;
 }
 
 
@@ -47,9 +48,6 @@ input{
   color: pink;
 }
 div{
-    color: pink;
-}
-spam{
     color: pink;
 }
 #nombre{
